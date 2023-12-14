@@ -10,7 +10,7 @@ public class Robot extends TimedRobot {
   private Spark leftMotor1 = new Spark(0);
   private Spark leftMotor2 = new Spark(1);
   private Spark leftMotor3 = new Spark(3);
-  private Spark rightMotor = new Spark(4);
+  private Spark rightMotor1 = new Spark(4);
   private Spark rightMotor2 = new Spark(5);
   private Spark rightMotor3 = new Spark(6);
 
