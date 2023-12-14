@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.motorcontrol.PWMSparkMax;
 
 public class Robot extends TimedRobot {
-  private Spark leftMotori = new Spark(0);
+  private Spark leftMotor1 = new Spark(0);
   private Spark leftMotor2 = new Spark(1);
   private Spark leftMotor3 = new Spark(3);
   private Spark rightMotor = new Spark(4);
