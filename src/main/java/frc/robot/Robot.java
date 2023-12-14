@@ -9,22 +9,21 @@ import edu.wpi.first.wpilibj.motorcontrol.PWMSparkMax;
 public class Robot extends TimedRobot {
   private Spark leftMotori = new Spark(0);
   private Spark leftMotor2 = new Spark(1);
-  private Spark rightMotor = new Spark(2);
-  private Spark rightMotor2 = new Spark(3);
+  private Spark leftMotor3 = new Spark(3);
+  private Spark rightMotor = new Spark(4);
+  private Spark rightMotor2 = new Spark(5);
+  private Spark rightMotor3 = new Spark(6);
 
   private Joystick joy1 = new Joystick(0);
 
   @Override
-  public void robotInit() {
-  }
+  public void robotInit() {}
 
   @Override
-  public void autonomousInit() {
-  }
+  public void autonomousInit() {}
 
   @Override
-  public void autonomousPeriodic() {
-  }
+  public void autonomousPeriodic() {}
 
   @Override
   public void teleopInit() {}
